@@ -5,7 +5,7 @@ CC=gcc
 CFLAGS=-c -Wall -Werror
 LDFLAGS=-Wall -Werror
 SOURCES=main.c get_count_strokes.c get_data.c print_rezult.c get_sum.c check_data_strokes.c get_area.c get_perimeter.c find_intersections.c
-SOURCES_TEST=main-test.c get_sum.c get_sum_test.c get_perimeter_test.c get_perimeter.c get_area.c get_area_test.c
+SOURCES_TEST=main-test.c get_sum.c get_sum_test.c get_perimeter_test.c get_perimeter.c get_area.c get_area_test.c check_data_strokes.c check_data_strokes_test.c 
 VPATH=src test
 
 .PHONY: all clean
