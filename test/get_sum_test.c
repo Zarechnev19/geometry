@@ -3,10 +3,10 @@
 
 CTEST(arithmetic_suite, simple_sum)
 {
-    const int a = 1;
-    const int b = 1;
+    const int a = 2;
+    const int b = 4;
     const int result = get_sum(a, b);
-    const int expected = 2;
+    const int expected = 6;
 
     ASSERT_EQUAL(expected, result);
 }
