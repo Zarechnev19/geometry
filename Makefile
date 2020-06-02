@@ -1,10 +1,11 @@
-OBJ_CATALOG=build
+OBJ_CATALOG=build/src
+OBJ_CATALOG_TEST=build/test
 
 CC=gcc
 CFLAGS=-c -Wall -Werror
 LDFLAGS=-Wall -Werror
-SOURCES=main.c get_count_strokes.c get_data.c print_rezult.c get_sum.c check_data_strokes.c
-VPATH=src
+SOURCES=main.c find_intersections.c get_area.c get_perimeter.c get_count_strokes.c get_data.c print_rezult.c get_sum.c check_data_strokes.c
+VPATH=src 
 
 .PHONY: all clean
 
